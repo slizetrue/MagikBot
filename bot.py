@@ -9,7 +9,7 @@ client = commands.Bot(command_prefix = 'm')
 @client.event
 async def on_ready():
     await client.change_presence(status=discord.Status.online,
-    activity=discord.Game(f"Type \'mhelp\' to get the list of commands"))
+    activity=discord.Game(f"Type \'mhelp\' to get the list of commands|By Slize @ TruthNetwork"))
     print('Magik Bot has connected to Discord!')
     
 @client.command()
