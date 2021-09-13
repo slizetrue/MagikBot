@@ -10,7 +10,7 @@ client = commands.Bot(command_prefix = '+')
 async def on_ready():
     await client.change_presence(status=discord.Status.online,
     activity=discord.Game(f"Type \'+help\' to get the list of commands | Playing on {len(client.guilds)} servers"))
-    print('Splik Bot has connected to Discord!')
+    print('Magik Bot has connected to Discord!')
     
 @client.command()
 async def ping(ctx):
