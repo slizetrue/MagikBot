@@ -10,7 +10,7 @@ class Fun(commands.Cog):
         self.client = client
 
     @commands.command()
-    async def rick(self, ctx):
+    async def joshua(self, ctx):
         await ctx.send(f'https://media.tenor.co/videos/6c233351834c6bf47b1aef59034ab5ec/mp4')
 
 
