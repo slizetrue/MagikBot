@@ -11,7 +11,7 @@ class Fun(commands.Cog):
 
     @commands.command()
     async def joshua(self, ctx):
-        await ctx.send(f'https://media.tenor.co/videos/6c233351834c6bf47b1aef59034ab5ec/mp4')
+        await ctx.send(f'https://tenor.com/view/rachel-green-friends-joshua-joshuafriends-gif-13356999')
 
 
 def setup(client):
