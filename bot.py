@@ -4,7 +4,7 @@ from discord.ext import commands
 from time import sleep
 from discord.ext.commands import has_permissions
 
-client = commands.Bot(command_prefix = 'm!')
+client = commands.Bot(command_prefix = 'b!')
 
 @client.event
 async def on_ready():
