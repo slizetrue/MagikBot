@@ -9,8 +9,8 @@ client = commands.Bot(command_prefix = 'm!')
 @client.event
 async def on_ready():
     await client.change_presence(status=discord.Status.online,
-    activity=discord.Game(f"Type \'m!help\' to get the list of commands|By Slize @ TruthNetwork|twitch.tv/slizetrue"))
-    print('Magik Bot has connected to Discord!')
+    activity=discord.Game(f"Type \'b!help\' to get the list of commands|By Slize @ TruthNetwork|twitch.tv/slizetrue"))
+    print('The Bois Bot has connected to Discord!')
     
 @client.command()
 async def ping(ctx):
